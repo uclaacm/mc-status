@@ -1,0 +1,43 @@
+html, body {
+  padding: 0 !important;
+  margin: 0;
+}
+
+/* html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+} */
+
+* {
+  box-sizing: border-box;
+}
+.navbar-link a {
+  padding-left: 1em !important;
+}
+
+.navbar-link > button {
+  margin-left: 1em;
+}
+
+.status-wrapper {
+  display: flex;
+  
+}
+
+.status-wrapper .fields {
+  flex-grow: 1;
+  font-weight: bold;
+  /* text-align: right; */
+  /* padding: 1rem; */
+}
+
+.status-wrapper .values {
+  flex-grow: 15;
+}
+
+.error {
+  display: none;
+}
